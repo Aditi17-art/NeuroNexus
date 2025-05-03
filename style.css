@@ -1,0 +1,65 @@
+/* Page background */
+body {
+    background-color: #ef681f; /* Light grey background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Form container */
+  .form-container {
+    background-color: #faf8f8; /* White form background */
+    width: 400px;
+    margin: 50px auto;
+    padding: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Minimalistic box-shadow */
+    border-radius: 8px;
+  }
+  
+  /* Form title */
+  form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Labels and inputs */
+  form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  input, textarea, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Gender radio button spacing */
+  .gender-options label {
+    margin-right: 15px;
+  }
+  
+  /* Submit button */
+  button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Submit button hover effect */
+  button:hover {
+    background-color: #45a049; /* Slightly darker green */
+  }
+  
